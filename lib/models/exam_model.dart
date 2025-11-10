@@ -1,5 +1,5 @@
 class Exam {
-  int id;
+  String id;
   String course;
   DateTime date;
   List<String> rooms;
