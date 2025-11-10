@@ -29,7 +29,7 @@ class _HomePageState extends State<HomePage> {
 
     // sort exams by date
     final sortedExams = List<Exam>.from(exams)
-      ..sort((a, b) => a.date.compareTo(b.date));
+      ..sort((a, b) => b.date.compareTo(a.date));
 
     return Scaffold(
       appBar: AppBar(
@@ -41,7 +41,6 @@ class _HomePageState extends State<HomePage> {
         child: ExamGrid(exams: sortedExams),
       ),
 
-      // 2. REQUIREMENT: Badge at the bottom
       bottomNavigationBar: BottomAppBar(
         elevation: 10,
         child: Container(
