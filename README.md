@@ -14,8 +14,11 @@ Exam Scheduler App as lab exercises project.
 ![img.png](doc/images/img4.png)
 
 ### Details Pages
-* Detail Page for a Exam in the future
+* Details Page for a future Exam.
+
 ![img.png](doc/images/img5.png)
-* Details Page for an Exam that had happened in the past
+
+
+* Details Page for a past Exam.
 ![img.png](doc/images/img6.png)
 
