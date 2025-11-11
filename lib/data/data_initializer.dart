@@ -62,8 +62,8 @@ List<Exam> sampleExams = [
     rooms: ["Библиотека"],
   ),
   Exam(
-    id: "F18L3S010",
-    course: "Дизајн на Интеракција Човек-Компјутер",
+    id: "F18L1S016",
+    course: "Објектно-ориентирано програмирање",
     date: DateTime(2026, 1, 29, 17, 0), // Future exam
     rooms: ["215", "216"],
   ),

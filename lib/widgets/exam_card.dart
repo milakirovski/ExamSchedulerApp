@@ -20,9 +20,7 @@ class ExamCard extends StatelessWidget {
 
     final Color textColor = isPassed
         ? Colors.grey.shade600
-        : Theme.of(
-            context,
-          ).colorScheme.onSurface;
+        : Theme.of(context).colorScheme.onSurface;
 
     final Color iconColor = isPassed
         ? Colors.grey
@@ -38,6 +36,7 @@ class ExamCard extends StatelessWidget {
           side: BorderSide(width: 4, color: borderColor),
           borderRadius: BorderRadius.circular(20),
         ),
+        shadowColor: Colors.black26,
         child: Padding(
           padding: EdgeInsets.all(10),
           child: Column(
@@ -50,6 +49,7 @@ class ExamCard extends StatelessWidget {
                 style: Theme.of(context).textTheme.titleLarge?.copyWith(
                   fontWeight: FontWeight.bold,
                   color: textColor,
+                  fontStyle: isPassed ? FontStyle.italic : FontStyle.normal,
                 ),
               ),
               Divider(height: 20, thickness: 1),
