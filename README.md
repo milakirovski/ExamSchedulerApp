@@ -2,15 +2,20 @@
 
 Exam Scheduler App as lab exercises project.
 
-## Getting Started
+## Images of the app UI
 
-This project is a starting point for a Flutter application.
+### Home page
+![img.png](doc/images/img1.png)
 
-A few resources to get you started if this is your first Flutter project:
+![img.png](doc/images/img2.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![img.png](doc/images/img3.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![img.png](doc/images/img4.png)
+
+### Details Pages
+* Detail Page for a Exam in the future
+![img.png](doc/images/img5.png)
+* Details Page for an Exam that had happened in the past
+![img.png](doc/images/img6.png)
+
