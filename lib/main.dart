@@ -1,4 +1,5 @@
-import 'package:exam_scheduler_app/pages/home_page.dart';
+import 'package:exam_scheduler_app/screens/details.dart';
+import 'package:exam_scheduler_app/screens/home_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -20,6 +21,7 @@ class MyApp extends StatelessWidget {
       initialRoute: "/",
       routes: {
         "/": (context) => const HomePage(title: 'Pаспоред за испити - 223182'),
+        "/details": (context) => const DetailsPage(),
       },
     );
   }

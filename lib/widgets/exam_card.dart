@@ -29,10 +29,9 @@ class ExamCard extends StatelessWidget {
         : Theme.of(context).colorScheme.onSurface;
 
     return GestureDetector(
-      // onTap: () {
-      //   Navigator.pushNamed(
-      //       context, "/details");
-      // },
+      onTap: () {
+        Navigator.pushNamed(context, "/details", arguments: exam);
+      },
       child: Card(
         color: cardBackgroundColor,
         shape: RoundedRectangleBorder(
@@ -64,7 +63,7 @@ class ExamCard extends StatelessWidget {
                   // Expanded ensures text wraps nicely if it's too long
                   Expanded(
                     child: Text(
-                      "Датум на полагање: ${exam.date.day.toString()}.${exam.date.month.toString()}.${exam.date.year.toString()}",
+                      "Датум на полагање: ${exam.date.day.toString().padLeft(2, '0')}.${exam.date.month.toString().padLeft(2, '0')}.${exam.date.year} ",
                       style: Theme.of(
                         context,
                       ).textTheme.bodyMedium?.copyWith(color: textColor),
