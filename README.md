@@ -14,11 +14,17 @@ Exam Scheduler App as lab exercises project.
 ![img.png](doc/images/img4.png)
 
 ### Details Pages
-* Details Page for a future Exam.
+
+Details Page for a future Exam.
 
 ![img.png](doc/images/img5.png)
 
 
-* Details Page for a past Exam.
+Details Page for a past Exam.
+
 ![img.png](doc/images/img6.png)
 
+---
+
+### Screen Recording aka App walkthrough
+[ScreenRecordMobilniLab1.webm](doc/video/ScreenRecordMobilniLab1.webm)
